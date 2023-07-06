@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1834452634166101002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834452634166101005}
+  - component: {fileID: 1834452634166101004}
+  - component: {fileID: 1834452634166101007}
+  - component: {fileID: 1834452634166101006}
+  - component: {fileID: 1834452634166101009}
+  m_Layer: 0
+  m_Name: Level 4
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1834452634166101005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834452634166101002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1834452634166101004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834452634166101002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eada9e7a525d1134890a4f3146fb0222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 5
+  height: 5
+  elementPrefabs:
+  - {fileID: 6747016764765352139, guid: 157e4755c20bfc044b20b0f0dae73b81, type: 3}
+  - {fileID: 7749040914523671408, guid: 8ea618cb4d597a143abad87d45fe6182, type: 3}
+  - {fileID: 6747016764765352139, guid: ee39ffe106ad2d943bc2fc91583fc43a, type: 3}
+  - {fileID: 6747016764765352139, guid: 01df665326b266e4297a2b9024e8e650, type: 3}
+  customElements:
+  - x: 0
+    y: 0
+    type: 0
+  - x: 0
+    y: 1
+    type: 1
+  - x: 0
+    y: 2
+    type: 2
+  - x: 2
+    y: 0
+    type: 2
+  - x: 3
+    y: 0
+    type: 2
+  - x: 4
+    y: 0
+    type: 3
+  - x: 4
+    y: 1
+    type: 3
+  - x: 3
+    y: 1
+    type: 3
+  - x: 2
+    y: 1
+    type: 1
+  - x: 2
+    y: 2
+    type: 1
+  - x: 0
+    y: 3
+    type: 0
+  - x: 0
+    y: 4
+    type: 0
+--- !u!114 &1834452634166101007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834452634166101002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90d7e8a4d2d1894294b547cde4bb07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1834452634166101006
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834452634166101002}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.5, y: 4}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7, y: 12}
+  m_EdgeRadius: 0
+--- !u!114 &1834452634166101009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834452634166101002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fdd3c9b20ac9f4383433c4127924e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 3
+  minSpeed: 0.1
+  maxSpeed: 1
+  prefabs:
+  - {fileID: 6333152975175317237, guid: 4bffbb4b14f9d584cb91bdae389481da, type: 3}
+  - {fileID: 5028806616262898689, guid: c948599e527635944a28d2f09a5a2fd2, type: 3}
